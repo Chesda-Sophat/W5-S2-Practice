@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-wrapper">
+    
+    <aside class="sidebar-left">
+        <div class="logo">
+            <div class="logo-icon">L</div>
+            <h2>Learning</h2>
+        </div>
+        
+        <nav class="nav-menu">
+            <a href="#" class="nav-item active"><span class="material-icons">dashboard</span> Dashboard</a>
+            <a href="#" class="nav-item"><span class="material-icons">folder</span> Classes</a>
+            <a href="#" class="nav-item"><span class="material-icons">description</span> Resources</a>
+            <a href="#" class="nav-item"><span class="material-icons">calendar_today</span> Learning plan</a>
+            <a href="#" class="nav-item"><span class="material-icons">chat</span> Chat <span class="badge">4</span></a>
+            <a href="#" class="nav-item"><span class="material-icons">edit</span> Settings</a>
+        </nav>
+
+        <div class="upgrade-box">
+            <img src="upgrade.png" alt="Files">
+            <p>Upgrade to <strong>PRO</strong> for more resources.</p>
+            <button class="upgrade-btn">Upgrade</button>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="main-header">
+            <h2>Dashboard</h2>
+            <div class="date-search">
+                <span class="date">21 Sep 2026, Monday</span>
+                <button class="search-btn"><span class="material-icons">search</span></button>
+            </div>
+        </header>
+
+        <div class="welcome-banner">
+            <div class="welcome-text">
+                <h1>Welcome back Chesda!</h1>
+                <p>You've learned <strong>80%</strong> of your goal this week!<br>Keep it up and improve your results!</p>
+            </div>
+            <div class="welcome-image">
+                <img src="student.png" alt="Student Illustration" width="150">
+            </div>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Latest results</h3>
+                    <a href="#">More &rarr;</a>
+                </div>
+                <div class="result-list">
+                    <div class="result-item">
+                        <span>Unit 5 - Technology</span>
+                        <div class="progress-bar-container"><div class="progress-bar red" style="width: 25%;"></div></div>
+                        <span class="percent red-text">25%</span>
+                    </div>
+                    <div class="result-item">
+                        <span>Unit 12 - Ecology</span>
+                        <div class="progress-bar-container"><div class="progress-bar blue" style="width: 44%;"></div></div>
+                        <span class="percent blue-text">44%</span>
+                    </div>
+                    <div class="result-item">
+                        <span>Unit 9 - Real estate</span>
+                        <div class="progress-bar-container"><div class="progress-bar blue" style="width: 40%;"></div></div>
+                        <span class="percent blue-text">40%</span>
+                    </div>
+                    <div class="result-item">
+                        <span>Unit 8 - Education</span>
+                        <div class="progress-bar-container"><div class="progress-bar red" style="width: 15%;"></div></div>
+                        <span class="percent red-text">15%</span>
+                    </div>
+                    <div class="result-item">
+                        <span>Unit 16 - Job market</span>
+                        <div class="progress-bar-container"><div class="progress-bar blue" style="width: 76%;"></div></div>
+                        <span class="percent blue-text">76%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Time spent on learning</h3>
+                    <a href="#">Last week &or;</a>
+                </div>
+                <div class="bar-chart">
+                    <div class="day"><div class="bar-fill pink-bar" style="height: 40%;"></div><span>Mon</span></div>
+                    <div class="day"><div class="bar-fill blue-bar" style="height: 60%;"></div><span>Tue</span></div>
+                    <div class="day"><div class="bar-fill blue-bar" style="height: 70%;"></div><span>Wed</span></div>
+                    <div class="day"><div class="bar-fill blue-bar" style="height: 80%;"></div><span>Thu</span></div>
+                    <div class="day"><div class="bar-fill pink-bar" style="height: 50%;"></div><span>Fri</span></div>
+                    <div class="day"><div class="bar-fill blue-bar" style="height: 60%;"></div><span>Sat</span></div>
+                    <div class="day"><div class="bar-fill blue-bar" style="height: 45%;"></div><span>Sun</span></div>
+                </div>
+                <div class="chart-legend">
+                    <span><div class="dot pink-bg"></div> Vocabulary</span>
+                    <span><div class="dot blue-bg"></div> Grammar</span>
+                    <span><div class="dot light-blue-bg"></div> Listening</span>
+                    <span><div class="dot gray-bg"></div> Writing</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="courses-section">
+            <div class="card-header">
+                <h3>Your courses</h3>
+                <a href="#">More &rarr;</a>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card dark-blue">
+                    <div class="level">B2</div>
+                    <div class="course-info">
+                        <span>Business French</span>
+                        <h4>Grammar</h4>
+                    </div>
+                    <div class="arrow">&rarr;</div>
+                </div>
+                <div class="course-card light-purple">
+                    <div class="level">B2</div>
+                    <div class="course-info">
+                        <span>Common English</span>
+                        <h4>Phrasal verbs</h4>
+                    </div>
+                    <div class="arrow">&rarr;</div>
+                </div>
+                <div class="course-card pink">
+                    <div class="level">C1</div>
+                    <div class="course-info">
+                        <span>Business French</span>
+                        <h4>Vocabulary</h4>
+                    </div>
+                    <div class="arrow">&rarr;</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <aside class="sidebar-right">
+        <div class="logout">
+            <span>Logout</span>
+            <span class="material-icons">logout</span>
+        </div>
+        
+        <div class="profile-widget">
+            <div class="avatar">
+                <img src="profile.png" alt="Avatar">
+                <div class="add-btn">+</div>
+            </div>
+            <h3>Chesda Sophat</h3>
+            <p>Student</p>
+        </div>
+
+        <div class="language-levels">
+            <div class="lang-level">
+                <div class="badge-round">B2</div>
+                <div class="lang-info">
+                    <h4>English</h4>
+                    <span>High intermediate</span>
+                    <div class="progress-bar-container"><div class="progress-bar blue" style="width: 80%;"></div></div>
+                </div>
+            </div>
+            <div class="lang-level">
+                <div class="badge-round">C1</div>
+                <div class="lang-info">
+                    <h4>Franch</h4>
+                    <span>Advanced</span>
+                    <div class="progress-bar-container"><div class="progress-bar blue" style="width: 90%;"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reminders-widget">
+            <div class="card-header">
+                <h3>Reminders</h3>
+                <span class="material-icons notification">notifications</span>
+            </div>
+            <div class="reminder-item alert">
+                <div class="icon red-icon"><span class="material-icons">error_outline</span></div>
+                <div class="reminder-text">
+                    <h4>Eng - Vocabulary test</h4>
+                    <p>24 Sep 2026, Thursday</p>
+                </div>
+            </div>
+            <div class="reminder-item">
+                <div class="icon blue-icon"><span class="material-icons">mail_outline</span></div>
+                <div class="reminder-text">
+                    <h4>Eng - Send grammar homework</h4>
+                    <p>29 Sep 2026, Tuesday</p>
+                </div>
+            </div>
+            <div class="reminder-item">
+                <div class="icon blue-icon"><span class="material-icons">mail_outline</span></div>
+                <div class="reminder-text">
+                    <h4>Franch - Send essay</h4>
+                    <p>05 Oct 2026, Monday</p>
+                </div>
+            </div>
+            <div class="reminder-item" style="opacity: 0.4;">
+                <div class="icon"><span class="material-icons" style="color: #ccc;">mail_outline</span></div>
+                <div class="reminder-text">
+                    <h4>Franch - Reading task</h4>
+                    <p>10 Oct 2026, Saturday</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+</div>
+
+</body>
+</html>
